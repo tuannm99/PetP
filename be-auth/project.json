@@ -1,0 +1,24 @@
+{
+  "name": "be-auth",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "be-auth/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "be-auth:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "be-auth:build:development"
+        },
+        "production": {
+          "buildTarget": "be-auth:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}

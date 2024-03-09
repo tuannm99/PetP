@@ -1,0 +1,8 @@
+{
+  "name": "web-landingpage",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "web-landingpage",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
