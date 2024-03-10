@@ -1,8 +1,0 @@
-{
-  "name": "web-admin",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "web-admin/src",
-  "projectType": "application",
-  "targets": {},
-  "tags": []
-}
